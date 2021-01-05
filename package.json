@@ -1,14 +1,4 @@
 {
-  "nativescript": {
-    "id": "org.nativescript.HelloWorld",
-    "templateVersion": "v2",
-    "tns-android": {
-      "version": "6.5.0"
-    },
-    "tns-ios": {
-      "version": "6.5.0"
-    }
-  },
   "name": "tns-template-hello-world-ng",
   "version": "6.6.5",
   "author": "NativeScript Team <nativescript@nstudio.io>",
@@ -32,29 +22,30 @@
     "postinstall": "npm run ngcc"
   },
   "dependencies": {
-    "@angular/animations": "~9.1.0",
-    "@angular/common": "~9.1.0",
-    "@angular/compiler": "~9.1.0",
-    "@angular/core": "~9.1.0",
-    "@angular/forms": "~9.1.0",
-    "@angular/platform-browser": "~9.1.0",
-    "@angular/platform-browser-dynamic": "~9.1.0",
-    "@angular/router": "~9.1.0",
-    "@nativescript/angular": "~9.0.0",
+    "@angular/animations": "10.0.0",
+    "@angular/common": "10.0.0",
+    "@angular/compiler": "10.0.0",
+    "@angular/core": "10.0.0",
+    "@angular/forms": "10.0.0",
+    "@angular/platform-browser": "10.0.0",
+    "@angular/platform-browser-dynamic": "10.0.0",
+    "@angular/router": "10.0.0",
+    "@nativescript/angular": "10.0.0",
     "@nativescript/theme": "~2.3.0",
     "reflect-metadata": "~0.1.12",
     "rxjs": "^6.5.0",
-    "tns-core-modules": "~6.5.0",
-    "zone.js": "~0.10.3"
+    "zone.js": "0.11.1",
+    "@nativescript/core": "7.0.0",
+    "@nativescript/webpack": "3.0.0"
   },
   "devDependencies": {
-    "@angular/compiler-cli": "~9.1.0",
-    "@ngtools/webpack": "~9.1.0",
-    "nativescript-dev-webpack": "~1.5.0",
-    "tns-android": "6.5.0",
-    "tns-platform-declarations": "~6.5.0",
-    "typescript": "~3.8.3"
+    "@angular/compiler-cli": "10.0.0",
+    "@nativescript/types": "7.0.0",
+    "@ngtools/webpack": "10.0.0",
+    "tns-android": "6.5.3",
+    "typescript": "3.9.7"
   },
   "private": "true",
-  "readme": "NativeScript Application"
+  "readme": "NativeScript Application",
+  "main": "main.js"
 }
